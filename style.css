@@ -1,0 +1,39 @@
+body{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color: blue;
+}
+#header{
+  background-color:white;
+  text-align:center;
+  font-weight:Bold;
+  font-size:25px;
+  display:flex;
+  flex-direction:column;
+}
+#title, #description{
+   padding-top: 5px;
+}
+#description{
+  font-size:15px;
+}
+#graph{
+  background-color:white;
+  width:1600px;
+  height:600px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+#svg{
+  background-color:white;
+ }
+#tooltip{
+  background-color:rgb(128,128,128,0.8);
+  position:absolute;
+  visibility:hidden;
+  padding:3px;
+  color:white;
+}
